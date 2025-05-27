@@ -1,0 +1,21 @@
+.container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	background-color: pink;
+	/* gap: 10px; */
+}
+
+.item1 {
+	background-color: aliceblue;
+}
+
+.item2 {
+	background-color: aqua;
+}
+
+.item3 {
+	background-color: navy;
+	color: white;
+}

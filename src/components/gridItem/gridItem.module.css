@@ -1,0 +1,8 @@
+.item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: aliceblue;
+	border: 1px solid #3c3c3c;
+	min-height: 200px;
+}
