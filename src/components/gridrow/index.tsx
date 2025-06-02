@@ -6,6 +6,6 @@ export interface GridRowProps {
 }
 export const GridRow = ({ rowNumber }: GridRowProps) => {
 	return contentData[rowNumber].map((item) => {
-		return <GridItem key={`row${item}`} text={item} />;
+		return <GridItem key={`row${item}`} text={item} gridLocation={``} />;
 	});
 };
